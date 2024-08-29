@@ -6,7 +6,19 @@
 
 ### 1、保存时，或者右键点击菜单，选择`class2module`转换。配合**Emmet**语法，在采用css module技术栈时，可以高效开发。
 
-![](/media/demonstration_steps.gif)
+例如:
+
+```
+<div className="name"></div>
+```
+
+在按下保存键（ctrl+s）后，自动转换为：
+
+```
+<div className={styles['name']}></div>
+```
+
+![](src/assets/imgs/demonstration_steps.gif)
 
 ### 2、如果样式文件不存在，自动引入样式文件，如果不存在该文件则自动创建。
 
@@ -20,7 +32,7 @@ import styles from "./index.module.less";
 
 ### 3、布局里用到的类名，自动添加进同级目录的样式文件中。
 
-![image-20240801160826270](/media/new_class.png)
+![new_class](src/assets/imgs/new_class.png)
 
 ## 插件设置
 
