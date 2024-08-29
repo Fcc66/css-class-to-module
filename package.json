@@ -1,8 +1,8 @@
 {
   "name": "cssclass2module",
-  "displayName": "cssclass2module",
+  "displayName": "Css Class To Module",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.90.0"
   },

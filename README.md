@@ -1,6 +1,6 @@
 ## 插件概述
 
-`css-class-to-module`是一个把普通`className`转换为`css module styles`格式的`className`的插件。支持保存时转换和菜单指令转换。
+`Css Class To Module`是一个把普通`className`转换为`css module styles`格式的`className`的插件。支持保存时转换和菜单指令转换。
 
 ## 功能
 
@@ -32,6 +32,8 @@ import styles from "./index.module.less";
 
 ### 3、布局里用到的类名，自动添加进同级目录的样式文件中。
 
+例如自动转换了`.name`、`.footer-box`、`.footer-item`、`.footer-item-title`、`.footer-item-content`等类名，则会自动把这些类名添加到同级目录的样式文件中：
+
 ![new_class](src/assets/imgs/new_class.png)
 
 ## 插件设置
@@ -45,7 +47,7 @@ import styles from "./index.module.less";
 
 ## 更新日志
 
-### 1.0.0
+### 0.0.4
 
 插件初始化，添加自动转换类名、自动引入样式文件、自动添加类名进样式文件功能。
 
